@@ -4,10 +4,10 @@ let pageNumber = 0;
 
 //have the contents for these pages
 const pages = [
-    'developer/designer', 
-    'transit lover', 
-    'dog mom', 
-    'download PDF'
+    { copy: 'a NYC-based developer/designer'}, 
+    { copy: 'a lover of public transportation'}, 
+    {copy: 'her dog <a href = "https://instagram.com/dingodexter">Dexter\'s</a> biggest fan'}, 
+    {copy: 'letting you <a href="pdf.pdf"> download her PDF</a>'}
 
 ]
 
@@ -39,7 +39,7 @@ const previous = function () {
 
 // this will update the sections content and style
 const updateSection = function () {
-    outputTag.innerHTML = pages[pageNumber];
+    outputTag.innerHTML = pages[pageNumber].copy;
 }
 
 // on click of nextTag, run this
