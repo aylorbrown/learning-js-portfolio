@@ -4,7 +4,7 @@ body {
     line-height: 1.25;
 
 /* gradient background  */
-    background-color: rgb(203, 169, 175);
+    background-color: rgb(143, 165, 118);
     background-image: linear-gradient(180deg, white, rgba(255, 255, 255, 0));
     color: black; 
    
@@ -38,7 +38,7 @@ section a  {
 .circle {
     width: 20px;
     height: 20px;
-    background-color: rgb(143, 165, 118);
+    background-color: rgb(255,105,180);
     /* creates circle */
     border-radius: 50%;
     display: inline-block;
