@@ -1,0 +1,17 @@
+body {
+    font-family: 'Yatra One', cursive;
+    font-size: 24px;
+    line-height: 1.25;
+
+    color: black; 
+    margin: 40px auto 40px auto;
+    width: 620px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 10vmin;
+}
