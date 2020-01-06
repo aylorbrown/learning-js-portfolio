@@ -4,10 +4,10 @@ let pageNumber = 0;
 
 //have the contents for these pages
 const pages = [
-    { copy: 'a NYC-based developer/designer', background: 'rgb(203, 169, 175)', circle: 'rgb(143, 165, 118)' }, 
-    { copy: 'a lover of public transportation', background: 'rgb(84, 135, 169)', circle: 'orange'}, 
-    { copy: 'looking for a job Summer/Fall 2020', background: 'rgb(220, 179, 89)', circle: 'blue'}, 
-    { copy: 'letting you <a href="pdf.pdf"> download her PDF</a>', background: 'rgb(203, 237, 208)', circle: 'black'}
+    { copy: 'a NYC-based developer/designer', background: 'rgb(143, 165, 118)', circle: 'rgb(255,105,180)' }, 
+    { copy: 'a lover of public transportation', background: 'rgb(250, 217, 206)', circle: 'rgb(190, 70, 36)'}, 
+    { copy: 'looking for a job Summer/Fall 2020', background: 'rgb(220, 179, 89)', circle: 'rgb(143, 165, 118)'}, 
+    { copy: 'letting you <a href="pdf.pdf"> download her PDF</a>', background: 'rgb(203, 237, 208)', circle: 'rgb(0,47,167)'}
 
 ]
 
