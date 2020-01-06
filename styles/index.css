@@ -4,18 +4,36 @@ body {
     line-height: 1.25;
 
 /* gradient background  */
-    background-color: rgb(143, 165, 118);
+    background-color: rgb(203, 169, 175);
     background-image: linear-gradient(180deg, white, rgba(255, 255, 255, 0));
     color: black; 
-    margin: 40px auto 40px auto;
-    width: 620px;
+   
     height: 100vh;
 }
 
 h1 {
     font-size: 24px;
+    margin: 10px 0 10px 0;
 }
 
 h2 {
     font-size: 10vmin;
+}
+
+section {
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(143, 165, 118);
+    /* creates circle */
+    border-radius: 50%;
+    display: inline-block;
 }
